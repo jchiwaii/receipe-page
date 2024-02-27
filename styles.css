@@ -74,8 +74,14 @@ h1 {
 }
 
 .preparation-list li::before {
-    content: "";
+  content: "";
   margin-right: 22px;
+}
+
+h3 {
+    font-size: 32px;
+    font-family: "Young Serif";
+    color: var(--color-nutgmeg-300);
 }
 .attribution {
   font-size: 11px;
