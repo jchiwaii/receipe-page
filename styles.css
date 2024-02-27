@@ -90,29 +90,29 @@ h3 {
   font-weight: 400;
 }
 
-.ingredients-used h3{
-    margin: 20px 0;
+.ingredients-used h3 {
+  margin: 20px 0;
 }
 
 .ingredients-used ul {
-    padding-left: 24px;
-    color: var(--color-dark-charcoal-400);
+  padding-left: 24px;
+  color: var(--color-dark-charcoal-400);
 }
 
 .ingredients-used li {
-    font-family: "Outfit";
-    line-height: 32px;
-    padding: 0;
+  font-family: "Outfit";
+  line-height: 32px;
+  padding: 0;
 }
 
 .ingredients-used li::marker {
-    color: var(--color-rasberry-500);
-  }
+  color: var(--color-rasberry-500);
+}
 
 .ingredients-used li::before {
-    content: "";
-    margin-right: 22px;
-  }
+  content: "";
+  margin-right: 22px;
+}
 
 .attribution {
   font-size: 11px;
