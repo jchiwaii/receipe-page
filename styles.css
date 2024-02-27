@@ -32,7 +32,6 @@ main {
 
 }
 img {
-  display: block;
   width: 600px;
   object-fit: cover;
   border-radius: 15px;
