@@ -82,6 +82,7 @@ h3 {
     font-size: 32px;
     font-family: "Young Serif";
     color: var(--color-nutgmeg-300);
+    font-weight: 400;
 }
 .attribution {
   font-size: 11px;
