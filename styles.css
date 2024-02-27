@@ -399,6 +399,7 @@ li {
 }
 .attribution {
   font-size: 0.6875rem;
+  margin: 1rem;
   text-align: center;
 }
 .attribution a {
