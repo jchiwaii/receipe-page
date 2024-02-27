@@ -69,12 +69,13 @@ h1 {
 
 .preparation-list {
   margin: 0;
-  padding-left: 48px;
+  padding-left: 30px;
   line-height: 32px;
 }
 
-.preparation-list li::marker {
-  margin-right: 100px;
+.preparation-list li::before {
+    content: "";
+  margin-right: 24px;
 }
 .attribution {
   font-size: 11px;
