@@ -1,2 +1,18 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+:root {
+  --color-nutgmeg-300: hsl(14, 45%, 36%);
+  --color-rasberry-500: hsl(332, 51%, 32%);
+  --color-white-700: hsl(0, 0%, 100%);
+  --color-rose-white-300: hsl(330, 100%, 98%);
+  --color-eggshell-400: hsl(30, 54%, 90%);
+  --color-light-grey-300: hsl(30, 18%, 87%);
+  --color-wenge-brown-500: hsl(30, 10%, 34%);
+  --color-dark-charcoal-400: hsl(24, 5%, 18%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
