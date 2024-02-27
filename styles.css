@@ -159,21 +159,49 @@ li {
   margin-right: -20px;
 }
 
-.nutrition-table {
-    width: 640px;
+.nutrition-content h3 {
+  margin: 20px 0;
 }
 
-.nutrition-table h3 {
-  margin: 20px 0;
-  text-align: left;
+.nutrition-content p {
+  font-family: "Outfit";
+}
+
+.nutrition-table {
+  border-collapse: separate;
+  font-family: "Outfit";
+  width: 640px;
+  padding-bottom: 50px;
+}
+
+.nutrition-table table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
 .nutrition-table td {
-    font-family: "Outfit";
-    color: var(--color-dark-charcoal-400);
-    line-height: 32px;
+  padding: 10px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 
+.nutrition-table .no-border {
+  border-bottom: none;
+}
+
+.nutrition-table .nutrient {
+  width: 30%;
+}
+
+.nutrition-table .details {
+  width: 30%;
+  text-align: start;
+  color: var(--color-nutgmeg-300);
+}
+
+#details {
+  color: var(--color-nutgmeg-300);
+  font-weight: 700;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
