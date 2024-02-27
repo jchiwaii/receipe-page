@@ -55,8 +55,12 @@ h1 {
     margin: 20px 0;
     padding: 16px;
     width: 610px;
+    border-radius: 12px;
 }
 
+.preparation-list{
+    padding-left: 48px;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
