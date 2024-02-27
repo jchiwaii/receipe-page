@@ -114,9 +114,17 @@ h3 {
   margin-right: 22px;
 }
 
-table {
-    border-top: 0.8px solid #999;
-    border-bottom: 0.8px solid #999;
+.first-table {
+width: 640px;
+}
+
+.instructions-table {
+    border-collapse: collapse;
+    border-top: 0.8px solid #a6a8aa;
+    border-bottom: 0.8px solid #a6a8aa;
+
+.instructions-table h3 {
+    margin: 20px 0;
 }
 
 .attribution {
