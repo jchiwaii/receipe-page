@@ -16,7 +16,6 @@ body {
   background-color: var(--color-eggshell-400);
   width: 660px;
   margin-bottom: 20px;
-  overflow: hidden;
 }
 
 main {
@@ -29,12 +28,15 @@ main {
 .image-container {
   padding-top: 30px;
   overflow: hidden;
-
 }
 img {
   width: 600px;
   object-fit: cover;
   border-radius: 15px;
+}
+
+h1 {
+  font-family: "Young Serif";
 }
 
 .attribution {
