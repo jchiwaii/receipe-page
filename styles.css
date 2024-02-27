@@ -52,24 +52,29 @@ h1 {
 }
 
 .preparation {
-    background-color: var(--color-rose-white-300);
-    font-family: "Outfit";
-    margin: 30px 0;
-    padding: 20px;
-    width: 610px;
-    border-radius: 12px;
+  background-color: var(--color-rose-white-300);
+  font-family: "Outfit";
+  margin: 30px 0;
+  padding: 20px;
+  width: 610px;
+  border-radius: 12px;
 }
 
 .preparation h2 {
-    font-weight: 700;
-    color: var(--color-rasberry-500);
-    margin: 0;
-    padding: 10px 10px;
+  font-weight: 700;
+  color: var(--color-rasberry-500);
+  margin: 0;
+  padding: 10px 10px;
 }
-.preparation-list{
-    margin: 0;
-    padding-left: 48px;
-    line-height: 32px;
+
+.preparation-list {
+  margin: 0;
+  padding-left: 48px;
+  line-height: 32px;
+}
+
+.preparation-list li::marker {
+  margin-right: 100px;
 }
 .attribution {
   font-size: 11px;
