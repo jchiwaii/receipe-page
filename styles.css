@@ -115,20 +115,47 @@ h3 {
 }
 
 .first-table {
-width: 640px;
+  width: 640px;
 }
 
 .instructions-table {
-    border-collapse: collapse;
-    border-top: 0.8px solid #a6a8aa;
-    border-bottom: 0.8px solid #a6a8aa;
-
-.instructions-table h3 {
-    margin: 20px 0;
+  border-collapse: collapse;
+  border-top: 0.8px solid hsl(30, 18%, 87%);
+  border-bottom: 0.8px solid hsl(30, 18%, 87%);
 }
 
-.attribution {
+.instructions-table h3 {
+  margin: 20px 0;
+  text-align: left;
+}
 
+.instructions-items {
+  font-family: "Outfit";
+  color: var(--color-dark-charcoal-400);
+  line-height: 32px;
+}
+
+.instructions-items {
+    margin-top: 0;
+    padding-left: 24px;
+}
+
+.instructions-items li {
+
+}
+
+.instructions-items li::marker {
+  color: var(--color-rasberry-500);
+  font-weight: 700;
+}
+
+.instructions-items li::before {
+    content: "";
+    margin-right: 16px;
+  }
+
+
+.attribution {
   font-size: 11px;
   text-align: center;
 }
