@@ -114,7 +114,13 @@ h3 {
   margin-right: 22px;
 }
 
+table {
+    border-top: 0.8px solid #999;
+    border-bottom: 0.8px solid #999;
+}
+
 .attribution {
+
   font-size: 11px;
   text-align: center;
 }
