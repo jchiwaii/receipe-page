@@ -95,7 +95,7 @@ h3 {
 }
 
 li {
-    list-style-position: outside;
+  list-style-position: outside;
 }
 
 .ingredients-used ul {
@@ -156,7 +156,22 @@ li {
 
 .instructions-items li::before {
   content: "";
-  margin-right: -16px;
+  margin-right: -20px;
+}
+
+.nutrition-table {
+    width: 640px;
+}
+
+.nutrition-table h3 {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.nutrition-table td {
+    font-family: "Outfit";
+    color: var(--color-dark-charcoal-400);
+    line-height: 32px;
 }
 
 .attribution {
