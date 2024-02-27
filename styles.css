@@ -9,6 +9,14 @@
   --color-dark-charcoal-400: hsl(24, 5%, 18%);
 }
 
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 16px;
+  background-color: var(--color-eggshell-400);
+  width: 700px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
