@@ -94,6 +94,10 @@ h3 {
   margin: 20px 0;
 }
 
+li {
+    list-style-position: outside;
+}
+
 .ingredients-used ul {
   padding-left: 24px;
   color: var(--color-dark-charcoal-400);
@@ -136,24 +140,24 @@ h3 {
 }
 
 .instructions-items {
-    margin-top: 0;
-    padding-left: 24px;
+  margin-top: 0;
+  padding-left: 24px;
 }
 
 .instructions-items li {
-
+  text-indent: 20px;
 }
 
 .instructions-items li::marker {
   color: var(--color-rasberry-500);
   font-weight: 700;
+  margin-right: 200px;
 }
 
 .instructions-items li::before {
-    content: "";
-    margin-right: 16px;
-  }
-
+  content: "";
+  margin-right: -16px;
+}
 
 .attribution {
   font-size: 11px;
