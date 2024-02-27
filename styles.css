@@ -14,18 +14,30 @@ body {
   padding: 0;
   font-size: 16px;
   background-color: var(--color-eggshell-400);
-  width: 700px;
+  width: 660px;
   margin-bottom: 20px;
+  overflow: hidden;
 }
 
 main {
-    background-color: var(--color-white-700);
-    margin-top: 200px;
+  background-color: var(--color-white-700);
+  margin-top: 200px;
+  border-radius: 20px;
+  padding-left: 30px;
 }
 
-img {
-    width: 500px;
+.image-container {
+  padding-top: 30px;
+  overflow: hidden;
+
 }
+img {
+  display: block;
+  width: 600px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
