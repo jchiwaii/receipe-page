@@ -27,6 +27,7 @@ main {
 
 .image-container {
   padding-top: 30px;
+  padding-bottom: 30px;
   overflow: hidden;
 }
 
@@ -40,14 +41,20 @@ h1 {
   font-family: "Young Serif";
   font-weight: 400;
   color: var(--color-dark-charcoal-400);
-  margin: 16px 0;
+  margin: 0;
 }
 
 .description {
   font-family: "Outfit";
   font-weight: 400;
   color: var(--color-dark-charcoal-400);
-  margin: 0;
+}
+
+.preparation {
+    background-color: var(--color-rose-white-300);
+    margin: 20px 0;
+    padding: 16px;
+    width: 610px;
 }
 
 .attribution {
