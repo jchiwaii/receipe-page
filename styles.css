@@ -37,6 +37,8 @@ img {
 
 h1 {
   font-family: "Young Serif";
+  font-weight: 400;
+  color: var(--color-dark-charcoal-400);
 }
 
 .attribution {
