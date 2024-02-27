@@ -71,6 +71,7 @@ h1 {
   margin: 0;
   padding-left: 30px;
   line-height: 32px;
+  color: var(--color-dark-charcoal-400);
 }
 
 .preparation-list li::before {
@@ -78,12 +79,41 @@ h1 {
   margin-right: 22px;
 }
 
-h3 {
-    font-size: 32px;
-    font-family: "Young Serif";
-    color: var(--color-nutgmeg-300);
-    font-weight: 400;
+.preparation-list li::marker {
+  color: var(--color-rasberry-500);
 }
+
+h3 {
+  font-size: 32px;
+  font-family: "Young Serif";
+  color: var(--color-nutgmeg-300);
+  font-weight: 400;
+}
+
+.ingredients-used h3{
+    margin: 20px 0;
+}
+
+.ingredients-used ul {
+    padding-left: 24px;
+    color: var(--color-dark-charcoal-400);
+}
+
+.ingredients-used li {
+    font-family: "Outfit";
+    line-height: 32px;
+    padding: 0;
+}
+
+.ingredients-used li::marker {
+    color: var(--color-rasberry-500);
+  }
+
+.ingredients-used li::before {
+    content: "";
+    margin-right: 22px;
+  }
+
 .attribution {
   font-size: 11px;
   text-align: center;
