@@ -184,7 +184,7 @@ li {
   border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 
-.nutrition-table .no-border {
+.nutrition-table .no-border td{
   border-bottom: none;
 }
 
