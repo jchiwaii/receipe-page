@@ -251,7 +251,10 @@ li {
     text-indent: -20px;
   }
   .instructions-items {
-    width: 310px;
+    width: 300px;
     padding-right: 10px;
+  }
+  .nutrition-table {
+    width: 310px;
   }
 }
