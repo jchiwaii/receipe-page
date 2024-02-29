@@ -235,4 +235,16 @@ li {
   .description {
     width: 310px;
   }
+  .preparation {
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .preparation-list {
+    width: 310px;
+  }
+
+.ingredients-used ul {
+  width: 310px;
+}
 }
