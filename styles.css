@@ -232,4 +232,7 @@ li {
     padding: 0;
     margin: 0;
   }
+  .description {
+    width: 310px;
+  }
 }
